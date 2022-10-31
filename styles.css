@@ -73,6 +73,7 @@
       'pftekst2 pftekst2 pftekst2 pfbilde2 pfbilde2 pfbilde2'
       'pftekst3 pftekst3 pftekst3 pftekst3 pftekst3 pftekst3'
       'pfbilde3 pfbilde3 pfbilde3 pfbilde3 pfbilde3 pfbilde3'
+      'pftekst4 pftekst4 pftekst4 pfbilde4 pfbilde4 pfbilde4'
       'footer footer footer footer footer footer';
   }
   .grid-container-tf {
@@ -162,6 +163,15 @@
     border: 3px outset rgb(0, 0, 0);
     min-height: 333px;
   }
+  .pfbilde4 {
+    grid-area: pfbilde4;
+    background-color: rgb(25, 108, 106);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px outset rgb(0, 0, 0);
+    min-height: 333px;
+  }
   .pftekst {
     grid-area: pftekst;
     background-color: rgb(25, 108, 106);
@@ -180,6 +190,12 @@
   }
   .pftekst3 {
     grid-area: pftekst3;
+    background-color: rgb(25, 108, 106);
+    border: 3px outset rgb(0, 0, 0);
+    padding: 5px;
+  }
+  .pftekst4 {
+    grid-area: pftekst4;
     background-color: rgb(25, 108, 106);
     border: 3px outset rgb(0, 0, 0);
     padding: 5px;
